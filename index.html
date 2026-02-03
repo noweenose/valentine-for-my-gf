@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy 10 Months</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Background slideshow goes here -->
+  <div id="background">
+  </div>
+
+  <!-- Dark overlay + main content -->
+  <div id="overlay">
+
+    <!-- Start Button (shown first) -->
+    <div id="start-screen">
+      <button id="start-button">Hi baby</button>
+    </div>
+
+    <!-- Main content (hidden initially) -->
+    <div id="main-content" style="display: none;">
+      <!-- Greeting -->
+      <header>
+        <h1 id="header-text"></h1>
+      </header>
+
+      <!-- Typing message will appear here -->
+      <section id="message">
+        <p id="typed-text"></p>
+      </section>
+
+      <!-- Interactive elements will live here -->
+      <section id="interactions">
+        <!-- Love button -->
+          <section id="interactions">
+            <div class ="love-section">
+              <button id="love-button"> Tap me</button>
+              <p id="love-message"></p>
+            </div>
+          </section>
+          <div id="valentine">
+          <button id="valentine-button">One more question… </button>
+              <div id="valentine-question">
+                  <p>Will you be my Valentine, Charlotte? </p>
+                  <button id="valentine-yes">Yes </button>
+                  <button id="valentine-no">No </button>
+              </div>
+          <p id="valentine-response"></p>
+          </div>
+      </section>
+    </div>
+  </div>
+
+<script src="js/config.js"></script>
+<script src="js/typing.js"></script>
+<script src="js/slideshow.js"></script>
+<script src="js/interactions.js"></script>
+
+</body>
+</html>
