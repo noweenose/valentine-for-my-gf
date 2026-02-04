@@ -22,7 +22,7 @@ Thank you for choosing me, for staying with me, and for loving me in all the way
 Here's to many more months, years, and lifetimes together.
 
 Forever yours,
-With all my love ❤️`;
+With all my love, Nowee`;
   
   bottleBtn.addEventListener("click", () => {
     modal.style.display = "block";

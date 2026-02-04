@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // Try loading images with sequential naming (image1, image2, etc.)
   // You can change this number to match your total image count
-  const maxImages = 20; // Adjust this to your needs
+  const maxImages = 41; // Adjust this to your needs
   
   let loadedCount = 0;
   let current = 0;
-  const interval = 4000; //miliseconds
+  const interval = 3000; //miliseconds
   
   // Function to check if image exists and load it
   function loadImage(index) {

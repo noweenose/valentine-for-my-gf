@@ -7,21 +7,21 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // Add your love notes here
   const notes = [
-    "You make every day brighter just by being in it ☀️",
-    "I fall in love with you more every single day 💕",
-    "Your smile is my favorite thing in the world 😊",
-    "Thank you for being my best friend and my love ❤️",
-    "I love the way you laugh at my silly jokes 😄",
-    "You make me want to be a better person 🌟",
-    "I'm so grateful the universe brought us together 🌌",
-    "Every moment with you is a moment I treasure 💎",
-    "You're the first person I think of every morning ☀️",
-    "I love how we can talk about anything and everything 💬",
-    "You make me feel so loved and appreciated 🥰",
-    "I can't wait to make more memories with you 📸",
-    "You're my favorite hello and hardest goodbye 👋",
-    "Being with you feels like coming home 🏡",
-    "I love you more than words can say 💝"
+    "You make my everyday brighter",
+    "I fall in love with you more every single day",
+    "You have the best smile, it makes my heart flutter each time",
+    "Thank you for being my best friend and my love",
+    "I love the way you laugh with your mouth wide open 😂",
+    "You make me want to be a better person every day",
+    "I'm so grateful the universe brought us together",
+    "Every moment with you is a dream come true",
+    "Not a single day passes when i don't think of you",
+    "I love how we can talk about anything and everything",
+    "You make me feel so loved and appreciated",
+    "I can't wait to make more memories with you",
+    "You're the most amazing person I've ever met",
+    "Being with you feels like coming home",
+    "I love you more than words can say"
   ];
   
   function createLoveNotes() {

@@ -13,18 +13,38 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       src: "assets/polaroids/image2.jpg",
-      caption: "That amazing day"
+      caption: "My favorite memory"
     },
     {
       src: "assets/polaroids/image3.jpg",
-      caption: "Always smiling with you"
+      caption: "Coffee run dates"
     },
     {
       src: "assets/polaroids/image4.jpg",
-      caption: "My favorite memory"
+      caption: "With Bean!"
     },  
     {
       src: "assets/polaroids/image5.jpg",
+      caption: "My forever duo"
+    },
+    {
+      src: "assets/polaroids/image6.jpg",
+      caption: "Partner in crime"
+    },
+    {
+      src: "assets/polaroids/image7.jpg",
+      caption: "Wow highschool lovebirds"
+    },
+    {
+      src: "assets/polaroids/image8.jpg",
+      caption: "Any trip with you is the best trip"
+    },
+    {
+      src: "assets/polaroids/image9.jpg",
+      caption: "Sleepy? AHAHAHAHAHHA"
+    },  
+    {
+      src: "assets/polaroids/image10.jpg",
       caption: "Forever and always"
     }
   ];

@@ -50,7 +50,7 @@ body {
 #background {
   position: fixed;
   inset: 0;
-  background: oklch(85.038% 0.0681 326.089);
+  background: oklch(54.395% 0.01254 17.275);
   z-index: -2;
   overflow: hidden;
 }

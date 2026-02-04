@@ -14,7 +14,7 @@ window.bgMusicPlayer = null;
 
   let headerIndex = 0;
   let messageIndex = 0;
-  const speed = 1; // milliseconds per character
+  const speed = 60; // milliseconds per character
   const typeSound = new Audio('assets/music/writing.mp3');
   const bgMusic = new Audio('assets/music/romanticpiano.mp3');
 
