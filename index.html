@@ -11,6 +11,9 @@
 </head>
 <body>
 
+  <!-- Falling petals/hearts background effect -->
+  <div id="falling-hearts"></div>
+
   <!-- Background slideshow goes here -->
   <div id="background">
   </div>
@@ -38,22 +41,101 @@
       <!-- Interactive elements will live here -->
       <section id="interactions">
         <!-- Love button -->
-          <section id="interactions">
-            <div class ="love-section">
-              <button id="love-button"> Tap me</button>
-              <p id="love-message"></p>
-            </div>
-          </section>
-          <div id="valentine">
-          <button id="valentine-button">One more question… </button>
-              <div id="valentine-question">
-                  <p>Will you be my Valentine, Charlotte? </p>
-                  <button id="valentine-yes">Yes </button>
-                  <button id="valentine-no">No </button>
-              </div>
-          <p id="valentine-response"></p>
+        <div class="love-section">
+          <button id="love-button">Tap me</button>
+          <p id="love-message"></p>
+        </div>
+        
+        <div id="valentine">
+          <button id="valentine-button">One more question…</button>
+          <div id="valentine-question">
+            <p>Will you be my Valentine, Charlotte?</p>
+            <button id="valentine-yes">Yes</button>
+            <button id="valentine-no">No</button>
           </div>
+          <p id="valentine-response"></p>
+        </div>
+
+        <!-- New Feature Buttons -->
+        <div id="feature-buttons">
+          <button class="feature-btn" id="timeline-btn"> Our Journey</button>
+          <button class="feature-btn" id="polaroid-btn"> Polaroids</button>
+          <button class="feature-btn" id="love-notes-btn"> Love Notes</button>
+          <button class="feature-btn" id="music-btn"> Our Song</button>
+          <button class="feature-btn" id="bottle-btn"> Message in a Bottle</button>
+        </div>
       </section>
+    </div>
+  </div>
+
+  <!-- Memory Timeline Modal -->
+  <div id="timeline-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal" data-modal="timeline-modal">&times;</span>
+      <h2>Our Journey Together</h2>
+      <div id="timeline-container"></div>
+      <div class="timeline-nav">
+        <button id="prev-month">← Previous</button>
+        <span id="month-indicator"></span>
+        <button id="next-month">Next →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Polaroid Gallery Modal -->
+  <div id="polaroid-modal" class="modal">
+    <div class="modal-content polaroid-content">
+      <span class="close-modal" data-modal="polaroid-modal">&times;</span>
+      <h2>Our Memories</h2>
+      <div id="polaroid-stack"></div>
+    </div>
+  </div>
+
+  <!-- Love Notes Modal -->
+  <div id="love-notes-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal" data-modal="love-notes-modal">&times;</span>
+      <h2>Hidden Love Notes</h2>
+      <div id="love-notes-grid"></div>
+    </div>
+  </div>
+
+  <!-- Music Player Modal -->
+  <div id="music-modal" class="modal">
+    <div class="modal-content music-content">
+      <span class="close-modal" data-modal="music-modal">&times;</span>
+      <h2>Our Song</h2>
+      <div id="music-player">
+        <div class="album-art">
+          <div class="vinyl-record"></div>
+        </div>
+        <div class="song-info">
+          <h3 id="song-title">Our Special Song</h3>
+          <p id="song-artist">For Charlotte</p>
+        </div>
+        <audio id="audio-player" controls>
+          <source src="assets/music/our-song.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+  </div>
+
+  <!-- Message in a Bottle Modal -->
+  <div id="bottle-modal" class="modal">
+    <div class="modal-content bottle-content">
+      <span class="close-modal" data-modal="bottle-modal">&times;</span>
+      <div id="bottle-animation">
+        <div class="bottle">
+          <div class="bottle-body">🍾</div>
+          <div class="wave"></div>
+        </div>
+        <button id="open-bottle">Open the Bottle</button>
+      </div>
+      <div id="bottle-message" style="display: none;">
+        <div class="scroll-paper">
+          <p id="bottle-text"></p>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -61,6 +143,12 @@
 <script src="js/typing.js"></script>
 <script src="js/slideshow.js"></script>
 <script src="js/interactions.js"></script>
+<script src="js/timeline.js"></script>
+<script src="js/polaroid.js"></script>
+<script src="js/love-notes.js"></script>
+<script src="js/music-player.js"></script>
+<script src="js/bottle.js"></script>
+<script src="js/falling-hearts.js"></script>
 
 </body>
 </html>

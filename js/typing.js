@@ -1,5 +1,7 @@
 // Typing effect for the message
 
+window.bgMusicPlayer = null;
+
 (function () {
   const target = document.getElementById("typed-text");
   const header = document.getElementById("header-text");
@@ -19,8 +21,10 @@
   // Set background music to loop
   bgMusic.loop = true;
   typeSound.loop = true;
-  bgMusic.volume = 0.15;
-  typeSound.volume = 1;  
+  bgMusic.volume = 0.02;
+  typeSound.volume = 0.5;  
+
+  window.bgMusicPlayer = bgMusic;
 
   function typeMessage() {
     if (messageIndex < text.length) {
