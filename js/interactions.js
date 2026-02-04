@@ -14,21 +14,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
   console.log("Feature buttons element:", featureButtons);
 
-
   const messages = [
-    "Hey… you clicked it.",
-    "Okay, that made me smile.",
-    "You're really cute, you know that?",
-    "Still you.",
+    "Hi!",
+    "Thank you for always making me smile ^_^",
+    "Im sorry for being annoying sometimes >.<",
+    "I will always choose you.",
     "Always you.",
     "I love you"
   ];
 
   const noMessages = [
-    "Are you sure? ",
-    "Pretty please? ",
-    "Come on, you know you want to say yes... ",
-    "I'll keep asking... Yes? ",
+    "Why not :(",
+    "Pleaaase? ",
+    "Come on, please :(",
+    "I'll keep asking...",
     "One more time... Will you?"
   ];
 
@@ -53,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   yesBtn.addEventListener("click", () => {
-  response.textContent = "You just made me the happiest person. Happy Valentine's Day, Charlotte ";
+  response.textContent = "You just made me the happiest person in the world! I love you so much!";
   question.style.display = "none";
     // Show feature buttons after saying yes
     setTimeout(() => {
